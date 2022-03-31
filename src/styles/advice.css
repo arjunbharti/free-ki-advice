@@ -21,3 +21,7 @@
     transform: scale(1.1);
     background-color: rgb(176, 199, 240);
 }
+
+.share-btn {
+    margin-top: 2rem;
+}

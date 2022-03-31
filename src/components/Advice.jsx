@@ -28,6 +28,11 @@ const Advice = () => {
               {loading ? (<img src="/loading.jpeg" alt='loading'/>) : (<p className='advice-text'>{advice}</p>)}
           </p>
           <button onClick={() => getAdvice()} className='advice-btn'>Another advice</button>
+            <div className='share-btn'>
+                <a className='twitter-share-button' href={`https://twitter.com/intent/tweet?text=${advice}  ~ via free-ki-advice`}>
+                  Click here to tweet this advice and be a motivational speaker 😂
+                </a>
+            </div>
       </div>
     )
 }
