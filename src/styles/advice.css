@@ -1,0 +1,23 @@
+.advice-card {
+    margin-top: 5em;
+    width: min(90%, 30rem);
+    text-align: center;
+}
+
+.advice-btn {
+    margin-top: 4rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: rgb(125, 155, 209);
+    font-size: large;
+}
+
+.advice-btn:hover {
+    transform: scale(1.1);
+    background-color: rgb(176, 199, 240);
+}

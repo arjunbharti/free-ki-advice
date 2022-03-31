@@ -1,0 +1,14 @@
+.heading {
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.advice-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
